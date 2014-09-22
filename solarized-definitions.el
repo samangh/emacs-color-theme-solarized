@@ -689,6 +689,15 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (sp-wrap-tag-overlay-face (,@bg-base02))
                 (sp-show-pair-match-face (,@fg-magenta ,@bg-back))
                 (sp-show-pair-mismatch-face (,@bg-red ,@fg-base02))
+                ;;magit next branch
+                (magit-diff-added (,@bg-back ,@fg-green))
+                (magit-diff-removed (,@bg-back ,@fg-red))
+                (magit-diff-context (,@bg-back ,@fg-base1))
+                (magit-diff-added-highlight (,@bg-base02 ,@fg-green))
+                (magit-diff-removed-highlight (,@bg-base02 ,@fg-red))
+                (magit-diff-context-highlight (,@bg-base02 ,@fg-base1))
+                (magit-hunk-heading (,@bg-base03 ,@fg-base1))
+                (magit-section-highlight (,@bg-base02))
                 ;; whitespace
                 (whitespace-empty (,@fg-red))
                 (whitespace-hspace (,@fg-orange))
