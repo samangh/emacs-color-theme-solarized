@@ -638,7 +638,7 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (markdown-url-face (:inherit link))
                 ;; Message
                 (message-mml (,@fg-blue))
-                (message-cited-text (,@fg-base2))
+                (message-cited-text (,@fg-base01))
                 (message-separator (,@fg-base3))
                 (message-header-xheader (,@fg-violet))
                 (message-header-name (,@fg-cyan))
