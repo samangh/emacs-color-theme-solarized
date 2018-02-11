@@ -357,6 +357,10 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (font-lock-exit-face (,@fmt-none ,@fg-red))
                 (font-lock-other-emphasized-face (,@fmt-bldi ,@fg-violet))
                 (font-lock-regexp-grouping-backslash (,@fmt-none ,@fg-yellow))
+                ;; helm
+                (helm-match (,@fmt-none ,@fg-orange))
+                (helm-M-x-key (,@fmt-none ,@fg-violet))
+                (helm-selection (,@fmt-none ,@bg-base02))
                 ;; info
                 (info-xref (:inherit link))
                 (info-xref-visited (:inherit link-visited))
@@ -691,6 +695,15 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (sp-wrap-tag-overlay-face (,@bg-base02))
                 (sp-show-pair-match-face (,@fg-magenta ,@bg-back))
                 (sp-show-pair-mismatch-face (,@bg-red ,@fg-base02))
+                ;;magit next branch
+                (magit-diff-added (,@bg-back ,@fg-green))
+                (magit-diff-removed (,@bg-back ,@fg-red))
+                (magit-diff-context (,@bg-back ,@fg-base1))
+                (magit-diff-added-highlight (,@bg-base02 ,@fg-green))
+                (magit-diff-removed-highlight (,@bg-base02 ,@fg-red))
+                (magit-diff-context-highlight (,@bg-base02 ,@fg-base1))
+                (magit-hunk-heading (,@bg-base03 ,@fg-base1))
+                (magit-section-highlight (,@bg-base02))
                 ;; whitespace
                 (whitespace-empty (,@fg-red))
                 (whitespace-hspace (,@fg-orange))
